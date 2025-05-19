@@ -1,0 +1,225 @@
+title: Classic Donald and Goofy
+description: Gives Donald and Goofy their Disney fits
+game: kh2
+dependencies: 
+assets:
+- name: obj/P_EX020.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    method: copy
+    source:
+    - name: obj/donald_Classic.model
+    type: model
+  - name: tim_
+    method: copy
+    source:
+    - name: obj/donald_Classic.tim
+    type: modeltexture
+- name: obj/P_EX020_RTN.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    method: copy
+    source:
+    - name: obj/donald_Classic.model
+    type: model
+  - name: tim_
+    method: copy
+    source:
+    - name: obj/donald_Classic.tim
+    type: modeltexture
+- name: obj/P_EX020_NOBG_RTN.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    method: copy
+    source:
+    - name: obj/donald_Classic.model
+    type: model
+  - name: tim_
+    method: copy
+    source:
+    - name: obj/donald_Classic.tim
+    type: modeltexture
+- name: obj/P_EX020_WM.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    method: copy
+    source:
+    - name: obj/donald_Classic.model
+    type: model
+  - name: tim_
+    method: copy
+    source:
+    - name: obj/donald_Classic.tim
+    type: modeltexture
+- name: obj/P_EX030.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    method: copy
+    source:
+    - name: obj/Goofy_Classic.model
+    type: model
+  - name: tim_
+    method: copy
+    source:
+    - name: obj/Goofy_Classic.tim
+    type: modeltexture
+- name: obj/P_EX030_RTN.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    method: copy
+    source:
+    - name: obj/Goofy_Classic.model
+    type: model
+  - name: tim_
+    method: copy
+    source:
+    - name: obj/Goofy_Classic.tim
+    type: modeltexture
+- name: obj/P_EX030_NOBG_RTN.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    method: copy
+    source:
+    - name: obj/Goofy_Classic.model
+    type: model
+  - name: tim_
+    method: copy
+    source:
+    - name: obj/Goofy_Classic.tim
+    type: modeltexture
+- name: obj/P_EX030_WM.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    method: copy
+    source:
+    - name: obj/Goofy_Classic.model
+    type: model
+  - name: tim_
+    method: copy
+    source:
+    - name: obj/Goofy_Classic.tim
+    type: modeltexture
+- name: remastered/obj/P_EX020.mdlx/-0.dds
+  method: copy
+  multi:
+  - name: remastered/obj/P_EX020_RTN.mdlx/-0.dds
+  - name: remastered/obj/P_EX020_NOBG_RTN.mdlx/-0.dds
+  - name: remastered/obj/P_EX020_WM.mdlx/-0.dds
+  source:
+  - name: remastered/P_EX020_DC.mdlx/-0.dds
+- name: remastered/obj/P_EX020.mdlx/-1.dds
+  method: copy
+  multi:
+  - name: remastered/obj/P_EX020_RTN.mdlx/-1.dds
+  - name: remastered/obj/P_EX020_NOBG_RTN.mdlx/-1.dds
+  - name: remastered/obj/P_EX020_WM.mdlx/-1.dds
+  source:
+  - name: remastered/P_EX020_DC.mdlx/-1.dds
+- name: remastered/obj/P_EX020.mdlx/-2.dds
+  method: copy
+  multi:
+  - name: remastered/obj/P_EX020_RTN.mdlx/-2.dds
+  - name: remastered/obj/P_EX020_NOBG_RTN.mdlx/-2.dds
+  - name: remastered/obj/P_EX020_WM.mdlx/-2.dds
+  source:
+  - name: remastered/P_EX020_DC.mdlx/-2.dds
+- name: remastered/obj/P_EX020.mdlx/-3.dds
+  method: copy
+  multi:
+  - name: remastered/obj/P_EX020_RTN.mdlx/-3.dds
+  - name: remastered/obj/P_EX020_NOBG_RTN.mdlx/-3.dds
+  - name: remastered/obj/P_EX020_WM.mdlx/-3.dds
+  source:
+  - name: remastered/P_EX020_DC.mdlx/-3.dds
+- name: remastered/obj/P_EX030.mdlx/-0.dds
+  method: copy
+  multi:
+  - name: remastered/obj/P_EX030_RTN.mdlx/-0.dds
+  - name: remastered/obj/P_EX030_NOBG_RTN.mdlx/-0.dds
+  - name: remastered/obj/P_EX030_WM.mdlx/-0.dds
+  source:
+  - name: remastered/P_EX030_DC.mdlx/-0.dds
+- name: remastered/obj/P_EX030.mdlx/-1.dds
+  method: copy
+  multi:
+  - name: remastered/obj/P_EX030_RTN.mdlx/-1.dds
+  - name: remastered/obj/P_EX030_NOBG_RTN.mdlx/-1.dds
+  - name: remastered/obj/P_EX030_WM.mdlx/-1.dds
+  source:
+  - name: remastered/P_EX030_DC.mdlx/-1.dds
+- name: remastered/obj/P_EX030.mdlx/-2.dds
+  method: copy
+  multi:
+  - name: remastered/obj/P_EX030_RTN.mdlx/-2.dds
+  - name: remastered/obj/P_EX030_NOBG_RTN.mdlx/-2.dds
+  - name: remastered/obj/P_EX030_WM.mdlx/-2.dds
+  source:
+  - name: remastered/P_EX030_DC.mdlx/-2.dds
+- name: remastered/obj/P_EX030.mdlx/-3.dds
+  method: copy
+  multi:
+  - name: remastered/obj/P_EX030_RTN.mdlx/-3.dds
+  - name: remastered/obj/P_EX030_NOBG_RTN.mdlx/-3.dds
+  - name: remastered/obj/P_EX030_WM.mdlx/-3.dds
+  source:
+  - name: remastered/P_EX030_DC.mdlx/-3.dds
+- name: kh-trio.png
+  method: copy
+  source:
+  - name: kh-trio.png
+- name: obj/donald_Classic.model
+  method: copy
+  source:
+  - name: obj/donald_Classic.model
+- name: remastered/P_EX030_CM.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/P_EX030_CM.mdlx/-3.dds
+- name: remastered/P_EX030_CM.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/P_EX030_CM.mdlx/-2.dds
+- name: remastered/P_EX030_CM.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/P_EX030_CM.mdlx/-1.dds
+- name: remastered/P_EX030_CM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/P_EX030_CM.mdlx/-0.dds
+- name: remastered/P_EX020_CM.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/P_EX020_CM.mdlx/-3.dds
+- name: remastered/P_EX020_CM.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/P_EX020_CM.mdlx/-2.dds
+- name: remastered/P_EX020_CM.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/P_EX020_CM.mdlx/-1.dds
+- name: remastered/P_EX020_CM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/P_EX020_CM.mdlx/-0.dds
+- name: obj/Goofy_Classic.tim
+  method: copy
+  source:
+  - name: obj/Goofy_Classic.tim
+- name: obj/Goofy_Classic.model
+  method: copy
+  source:
+  - name: obj/Goofy_Classic.model
+- name: obj/donald_Classic.tim
+  method: copy
+  source:
+  - name: obj/donald_Classic.tim
