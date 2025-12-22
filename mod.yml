@@ -107,22 +107,6 @@ assets:
     source:
     - name: obj/Goofy_Classic.tim
     type: modeltexture
-- name: obj/H_ZZX020.mdlx
-  method: copy
-  source:
-  - name: obj/H_ZZX020.mdlx
-- name: obj/H_ZZ040.mdlx
-  method: copy
-  source:
-  - name: obj/H_ZZ040.mdlx	
-- name: obj/H_ZZ030.mdlx
-  method: copy
-  source:
-  - name: obj/H_ZZ030.mdlx
-- name: obj/H_ZZ050.mdlx
-  method: copy
-  source:
-  - name: obj/H_ZZ050.mdlx
 - name: remastered/obj/P_EX020.mdlx/-0.dds
   method: copy
   multi:
@@ -239,6 +223,3 @@ assets:
   method: copy
   source:
   - name: obj/donald_Classic.tim
-
-
-
