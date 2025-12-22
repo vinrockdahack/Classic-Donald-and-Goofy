@@ -109,22 +109,6 @@ assets:
     type: modeltexture
 - name: remastered/obj/P_EX020.mdlx/-0.dds
   method: copy
-  - name: obj/H_ZZX020.mdlx
-  method: copy
-  source:
-  - name: obj/H_ZZX020.mdlx
-- name: obj/H_ZZ040.mdlx
-  method: copy
-  source:
-  - name: obj/H_ZZ040.mdlx	
-- name: obj/H_ZZ030.mdlx
-  method: copy
-  source:
-  - name: obj/H_ZZ030.mdlx
-- name: obj/H_ZZ050.mdlx
-  method: copy
-  source:
-  - name: obj/H_ZZ050.mdlx
   multi:
   - name: remastered/obj/P_EX020_RTN.mdlx/-0.dds
   - name: remastered/obj/P_EX020_NOBG_RTN.mdlx/-0.dds
@@ -239,4 +223,5 @@ assets:
   method: copy
   source:
   - name: obj/donald_Classic.tim
+
 
